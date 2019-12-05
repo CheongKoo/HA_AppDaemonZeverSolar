@@ -1,0 +1,4 @@
+---
+zever_solar:
+  module: zeversolarget 
+  class: ZeverSolar
