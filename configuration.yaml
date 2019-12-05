@@ -1,0 +1,16 @@
+# --------------------------------------------
+# Create AppDaemon MQTT Zeversolar reader
+# https://www.home-assistant.io/integrations/sensor.mqtt/
+# https://www.home-assistant.io/integrations/sensor/
+# --------------------------------------------
+  - platform: mqtt
+    name: SolarGeneration
+    state_topic: "home/solargen/POWER"
+    device_class: power
+    unit_of_measurement: 'kW'
+    value_template: "{{ value_json.power }}"
+  - platform: mqtt
+    name: SolarGenerationDateTime
+    state_topic: "home/solargen/DATETIME"
+    value_template: "{{ value_json.datetime }}"
+# --------------------------------------------
