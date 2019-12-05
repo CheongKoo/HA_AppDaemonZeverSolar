@@ -6,9 +6,8 @@ This AppDaemon application gets generated power from the ZeverSolar Inverter and
 *Note that I am still very much a newbie with regards to programming in python and AppDaemon. Any comments and suggestions would be appreciated.*
 
 The tricky areas that I had to overcome were:
-
-*Handling the scenario when ZeverSolar website was down. This occurs during the night when there is no generated power to the unit.
-*Integrating it with HomeAssistant AppDaemon. 
+* Handling the scenario when ZeverSolar website was down. This occurs during the night when there is no generated power to the unit.
+* Integrating it with HomeAssistant AppDaemon. 
 
 **Steps**
 WIP ... (need to put in code and instructions)
