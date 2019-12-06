@@ -11,7 +11,7 @@ This AppDaemon application gets the generated power from the ZeverSolar Inverter
 3. Remember to modify the above python file with the URL for your ZeverSolar inverter and the MQTT message structure.
 4. Add into your */config/appdaemon/apps/apps.yaml* the entry for the new module and class in 2. See sample entry in this repository.
 5. Add into your */config/configuration.yaml* the MQTT entry for ZeverSolar messages. See sample entry in this repository.
-6. Remember to modify the MQTT entry to suite the changes from step 3.
+6. Remember to modify the MQTT entry to suit the changes from step 3.
 7. Goto your Hass.IO AppDaemon add.on screen and you should be able to see some log messages.
 ```
 2019-12-06 11:21:05.344670 INFO zever_solar: ----- Get Gen Callback -----
