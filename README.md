@@ -21,7 +21,7 @@ This AppDaemon application gets the generated power from the ZeverSolar Inverter
 2019-12-06 11:22:05.395616 INFO zever_solar: Payload: {"power":"4.98"}
 2019-12-06 11:22:05.451206 INFO zever_solar: Payload: {"datetime":"06/12/2019 11:22"}
 ```
-8. Add this new entity to your home screen. 
+8. If everything is working fine, you can now add this new entity to your Home Assistant overview screen. 
 
 **Reference:**
 1. [Reading ZeverSolar Inverter](https://forum.pvoutput.org/t/how-to-read-data-direct-from-zeversolar-inverter/1030/8)
