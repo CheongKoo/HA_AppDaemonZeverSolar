@@ -23,13 +23,16 @@ myGeneration = "0.00"
 from urllib.request import Request, urlopen
 from urllib.error import  URLError
 from datetime import datetime
+from datetime import timedelta
 
 class ZeverSolar(hass.Hass):
     def initialize(self):
         self.log("------------------------------------------------")
         self.log("Initiatilize: Get energy from solar system.")
         # Register call back function for every 1 minute
-        self.handle = self.run_every(self.doGetGenAndSendMQTT,  datetime.now(), 1 * 60)
+        # Delay callback by 5 mins from start        
+        startTime = datetime.now() + timedelta(minutes=5)
+        self.handle = self.run_every(self.doGetGenAndSendMQTT,  startTime, 1 * 60)
 
     # Get generation and send out message
     def doGetGenAndSendMQTT(self, arg):
