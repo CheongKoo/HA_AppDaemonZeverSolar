@@ -5,7 +5,7 @@
 # from ZeverSolar inverter and send it to the front end using MQTT.
 # Callback function to update reading every minute.
 #
-# Modify MQTT payload format to match with your MQTT settins in Home Assistant.
+# Modify MQTT payload format to match with your MQTT settings in Home Assistant.
 #
 # Reference: ZeverSolar https://forum.pvoutput.org/t/how-to-read-data-direct-from-zeversolar-inverter/1030/2
 
