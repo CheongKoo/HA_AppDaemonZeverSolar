@@ -13,4 +13,10 @@
     name: SolarGenerationDateTime
     state_topic: "home/solargen/DATETIME"
     value_template: "{{ value_json.datetime }}"
+  - platform: mqtt
+    name: SolarDailykWh
+    state_topic: "home/solargen/DAILYKWH"
+    device_class: power
+    unit_of_measurement: 'kWh'
+    value_template: "{{ value_json.dailykwh }}"
 # --------------------------------------------
