@@ -1,5 +1,5 @@
 # HA_AppDaemonZeverSolar
-## Home Assistant - AppDaemon Application to extract generated power from Zeversolar inverter
+### Home Assistant - AppDaemon Application to extract generated power from Zeversolar inverter
 
 This AppDaemon application gets the generated power from the ZeverSolar Inverter and shows it on a panel in HomeAssistant. This is done by accessing the URL for the Zeversolar unit, parsing this data and sending it to HomeAssistant using MQTT. Refer to (1) below for more information about the format of the ZeverSolar URL and the format of the returned data.
 
