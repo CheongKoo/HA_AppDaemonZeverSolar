@@ -3,7 +3,7 @@
 
 This AppDaemon application gets the generated power from the ZeverSolar Inverter and shows it on a panel in HomeAssistant. This is done by accessing the URL for the Zeversolar unit, parsing this data and sending it to HomeAssistant using MQTT. Refer to (1) below for more information about the format of the ZeverSolar URL and the format of the returned data.
 
-*Note that I am still very much a newbie with regards to programming in Python and AppDaemon. Any comments and suggestions would be appreciated.*
+### Note: Please don't use this code. I have implemented a version of ZeverSolar Reader using Hass.IO sensor which is much cleaner and easier to use. The project is [here](https://github.com/CheongKoo/HA_AppDaemonZeverSolarSensor).
 
 ## Steps to setting it up
 1. Install AppDaemon. Refer AppDaemon [instructions](https://appdaemon.readthedocs.io/en/stable/)
